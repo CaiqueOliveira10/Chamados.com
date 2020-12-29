@@ -3,8 +3,8 @@
 <br>
 <img src="ImagesSite/loginpage.png"/>
 <br>
-<img src="ImageSite/cadchamado.png"/>
+<img src="ImagesSite/cadchamado.png"/>
 <br>
-<img src="ImageSite/tabelachamado.png"/>
+<img src="ImagesSite/tabelachamado.png"/>
 <br>
-<img src="ImageSite/busca.png"/>
+<img src="ImagesSite/busca.png"/>
