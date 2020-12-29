@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+<title>Chamado</title>
+
+<!-- CSS  -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+<script src="script.js"></script> 
+</head>
+
+<body>
+
+<!-- MENU -->
+<body class="grey lighten-4">
+<nav id="menu">
+<div class="container">
+<div class="nav-wrapper">
+<a href="index.html" class="brand-logo">Chamados.com</a>
+<a href="#" data-activates="side-nav" class="button-collapse show-on-large right">
+<i class="material-icons">power_settings_new</i>
+</a>
+<ul class="right hide-on-med-and-down">
+<li>
+<a href="chamado.html">Cadastro</a>
+</li>
+<li>
+<a href="lista.html">Chamados</a>
+</li>
+</ul>
+
+
+</div>
+</div>
+</nav>
+
+
+<section class="section section-details grey lighten-4">
+<div class="container">
+<div class="row">
+<div class="col s12">
+<div class="card">
+<div class="card-content">
+<div class="row">
+<div class="col s12 m6">
+<span class="card-title"><b>Chamado</b></span>
+</div>
+</div>
+
+<!-- CAMPO TITULO -->
+<div class="section">
+<div class="row">
+<div class="input-field col s4">
+<i class="material-icons prefix">local_offer</i>
+<input id="titulo" type="text" class="validate" placeholder="Titulo" required>
+</div>
+</div>
+
+<!-- CAMPO DESCRIÇÃO -->
+<div class="section">
+<div class="row">
+<div class="input-field col s4">
+<i class="material-icons prefix">mode_edit</i>
+<textarea id="descricao" class="materialize-textarea" placeholder="Descrição" required></textarea>
+</div>
+
+<!-- OPTION PRIORIDADE -->
+</div>
+<div class="section">
+<div class="row">
+<div class="input-field col s4">
+<select id="prioridade" class="browser-default">
+<option value="" disabled selected>Prioridade</option>
+<option value="1">Baixa</option>
+<option value="2">Normal</option>
+<option value="3">Alta</option>
+<option value="4">Emergencia</option>
+</select>
+</div>
+
+<!-- OPTION STATUS -->
+</div>
+<div class="section">
+<div class="row">
+<div class="input-field col s4">
+<select id="status"class="browser-default">
+<option value="" disabled selected>Status</option>
+<option value="1">Aberto</option>
+<option value="2">Cancelado</option>
+<option value="3">Fechado</option>
+</select>
+</div>
+
+<!-- CHECKBOX -->
+</div>
+<b>TIPO:</b>
+<p><br>
+<label>
+<input type="checkbox" id="ck1" class="filled-in" />
+<span>Hardware</span>
+</label>
+</p>
+<p>
+                          
+
+<label>
+<input type="checkbox" id="ck2" class="filled-in" />
+<span>Software</span>
+</label>
+</p>
+<p>
+
+<label>
+<input type="checkbox" id="ck3" class="filled-in" />
+<span>Rede</span>
+</label>
+</p>
+<p>
+
+  
+<label>
+<input type="checkbox" id="ck4" class="filled-in" />
+<span>Acessos</span>
+</label>
+</p>
+</div>
+
+<!-- BOTOES -->
+<div class="card-action">
+<button type="button" id="btn1" onclick="validacao()" class="btn green">Gravar</button>
+<a href="lista.html"  id="login-button" class="btn black">Voltar</a>
+</div>
+</div>
+
+</section>
+
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+
+<script>
+$('#textarea1').val('');
+M.textareaAutoResize($('#txtarea'));
+</script>
+
+</body>
+
+</html>

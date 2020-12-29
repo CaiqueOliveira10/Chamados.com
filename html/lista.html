@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+<title>Lista</title>
+
+<!-- CSS  -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+
+<!-- MENU -->
+<body class="grey lighten-4">
+<nav id="menu">
+<div class="container">
+<div class="nav-wrapper">
+<a href="index.html" class="brand-logo">Chamados.com</a>
+<a href="#" data-activates="side-nav" class="button-collapse show-on-large right">
+<i class="material-icons">power_settings_new</i>
+</a>
+<ul class="right hide-on-med-and-down">
+<li>
+<a href="chamado.html">Cadastro</a>
+</li>
+<li>
+<a href="lista.html">Chamados</a>
+</li>
+</ul>
+
+
+</div>
+</div>
+</nav>
+
+<!-- TITULO -->
+<p class="center-align" style="font-size:20px;"><b>Olá Maria</b></p>
+<section class="section section-posts grey lighten-4">
+<div class="container">
+<div class="row">
+ <div class="col s12">
+<div class="card">
+<div class="card-content">
+<span class="card-title">Posts</span>
+
+<!-- BARRA DE PESQUISA -->
+<form>
+<div class="input-field row col s4">
+<i class="material-icons prefix" style="margin-left: -3vh">search</i>
+<input id="buscar" type="search" class="col s12" placeholder="Buscar">
+</div>
+<div>
+<button class="btn black" style="margin-bottom: -6vh; margin-left: 4vh;">OK</button>
+<a href="chamado.html"  id="login-button" class="btn green" style="margin-bottom: -6vh;">Novo Chamado</a>
+
+
+</div>
+
+
+<!-- TABELA -->
+
+<table class="striped">
+<thead>
+<tr>
+<th>ID</th>
+<th>Assunto</th>
+<th>Status</th>
+<th>Data</th>
+<th>Consultar</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+
+<!-- 1 -->
+<tr>
+<td>1</td>
+<td>Sem acesso</td>
+<td>Aberto</td>
+<td>01/09/20</td>
+<td>
+<a href="chamado.html" class="btn blue lighten-2">ver</a>
+</td>
+</tr>
+
+<!-- 2 -->
+<tr>
+<td>2</td>
+<td>Mouse falhando</td>
+<td>Aberto</td>
+<td>02/09/20</td>
+<td>
+<a href="chamado.html" class="btn blue lighten-2">ver</a>
+</td>
+</tr>
+
+
+ <!-- 3 -->
+<tr>
+<td>3</td>
+<td>Vpn senha</td>
+<td>Cancelado</td>
+<td>01/09/20</td>
+<td>
+<a href="chamado.html" class="btn blue lighten-2">ver</a>
+</td>
+</tr>
+
+
+<!-- 4 -->
+<tr>
+<td>4</td>
+<td>Criar usuario</td>
+<td>Fechado</td>
+<td>31/08/20</td>
+<td>
+<a href="chamado.html" class="btn blue lighten-2">ver</a>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<!--  SCRIPTS-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+
+
+</body>
+</html>

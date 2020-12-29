@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+<title>Cadastro</title>
+
+<!-- CSS  -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+<script src="script.js"></script> 
+</head>
+
+<body>
+
+<div class="section no-pad-bot" id="index-banner">
+<div class="container">
+<br><br>
+<h1 id="title-login" class="header center">Cadastre-se</h1>
+<div class="row center">
+<img id="cadastre" src="images/cadastre.png" alt="">
+</div>
+<div class="card-content valign center">
+
+
+<!-- CAMPO NOME -->
+<div class="section">
+<div class="row">
+<div class="input-field col offset-s4 s4">
+<input id="nome" type="text" class="validate" placeholder="Nome" required>
+</div>
+</div>
+
+<!-- CAMPO EMAIL -->
+<div class="section">
+<div class="row">
+<div class="input-field col offset-s4 s4">
+<input id="email" type="text" class="validate" placeholder="Email" required>
+</div>
+</div>
+
+<!-- CAMPO SENHA -->
+<div class="section">
+<div class="row">
+<div class="input-field col offset-s4 s4">
+<input id="senha" type="password" class="validate" placeholder="Senha" required>
+</div>
+</div>
+
+<!-- CAMPO VALIDAR SENHA -->
+<div class="section">
+<div class="row">
+<div class="input-field col offset-s4 s4">
+<input id="confsenha" type="password" class="validate" placeholder="Confirmar Senha" required>
+</div>
+</div>
+
+<!-- CAMPO TELEFONE -->
+<div class="section">
+<div class="row">
+<div class="input-field col offset-s4 s4">
+<input id="telefone" type="text" placeholder="Telefone" maxlength="11" required>
+</div>
+</div>
+</div>
+
+<!-- BOTOES -->
+<div class="row center">
+<button type="button" id="login-button" class="btn-large waves-effect waves-light" onclick="validcad()">Inserir</button>
+<a href="login.html" id="login-button" class="btn-large waves-effect waves-light">Voltar</a>
+</div>
+<br><br>
+
+</div>
+</div>
+
+
+<!--  SCRIPTS-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+
+
+
+
+  
+</body>
+</html>

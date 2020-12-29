@@ -1,0 +1,66 @@
+ body{
+   background-color: #E7E7E7;
+ }
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+#entrar{
+  height: 20%;
+  width: 20%;
+}
+
+#cadastre{
+  height: 20%;
+  width: 20%;
+}
+
+#esqueci{
+  height: 20%;
+  width: 20%;
+}
+
+.card .card-content {
+  margin: 0 auto;
+}
+
+/* LOGIN PAGE */
+
+#login-button{
+  background-color: #00344C;
+}
+
+#title-login{
+  color: #00344C;
+}
+
+.recover-pass a{
+  color: navy;
+}
+
+::placeholder{
+  color: #063d30;
+}
+
+/* LOGIN PAGE */
+
+#menu{
+  background-color: #00344C;
+}
+
+nav ul a:hover{
+  background-color: white;
+  color: #00344C;
+}
+
+
+input.empty {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
