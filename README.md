@@ -5,6 +5,6 @@
 <br>
 <img src="ImagesSite/cadchamado.png"/>
 <br>
-<img src="ImagesSite/tabelachamado.png"/>
+<img src="ImagesSite/tabelapage.png"/>
 <br>
 <img src="ImagesSite/busca.png"/>
