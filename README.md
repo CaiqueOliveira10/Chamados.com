@@ -6,7 +6,7 @@
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,php,mysql,vscode,windows" />
+    <img src="https://skillicons.dev/icons?i=html,css,js,php,mysql,vscode,windows" />
   </a>
 </p>
 
@@ -15,6 +15,9 @@
 
 <h2>CSS(Cascading Style Sheets)</h2>
 <p>CSS é uma linguagem utilizada para estilizar e formatar a apresentação de páginas web.</p>
+
+<h2>Javascript</h2>
+<p>JavaScript é uma linguagem de programação de alto nível, interpretada e orientada a objetos, amplamente utilizada para o desenvolvimento de aplicações web, além de ser usada para manipular elementos da interface do usuário, JavaScript também é empregado para validação de formulários, criação de gráficos e animações, interação com APIs e desenvolvimento de aplicativos móveis e desktop, entre outras aplicações.</p>
 
 <h2>Php(Hypertext Preprocessor)</h2>
 <p>PHP (Hypertext Preprocessor) é uma linguagem de programação de script do lado do servidor, amplamente utilizada para o desenvolvimento de websites dinâmicos e aplicações web.</p>
