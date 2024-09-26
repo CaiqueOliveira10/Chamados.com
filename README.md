@@ -26,8 +26,6 @@
 <p>MySQL é um sistema de gerenciamento de banco de dados relacional (RDBMS) que utiliza a linguagem de consulta estruturada (SQL) para acessar e manipular dados.</p>
 
 <h2>Resumo do Projeto</h2>
-<h3>Chamados.com Website Made by <a href="https://materializecss.com/">Materialize</a>. </h3>
-<br>
 <img src="ImagesSite/loginpage.png"/>
 <br>
 <img src="ImagesSite/cadchamado.png"/>
